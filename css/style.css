@@ -1,0 +1,28 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Sniglet', cursive;*/
+/*font-family: 'Dosis', sans-serif;*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-image: url(../image/body.png);
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+}
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 18px;
+	color: white !important;
+	padding: 0 15px !important;
+	border-radius: 15px;
+	transition: 0.4s;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c !important;
+}
+/*header end*/
